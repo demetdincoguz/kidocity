@@ -6,29 +6,34 @@ angular.module('starter.services', [])
   // Some fake testing data
   var chats = [{
     id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+    name: 'Blender Amsterdam',
+    lastText: 'Ruysdaelstraat 9-11-13\n1071 WX Amsterdam\n020 8452615',
+    face: 'http://metowelive.vanons.netdna-cdn.com/wp-content/uploads/2014/11/Blender.jpg?a182d9'
   }, {
     id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
+    name: 'Cafe Restaurant Amsterdam',
+    lastText: 'Watertorenplein 6, Amsterdam\n020 682 2666',
+    face: 'http://www.caferestaurantamsterdam.nl/fotoalbum/1026_temp.jpg'
   }, {
     id: 2,
-    name: 'Andrew Jostlin',
-    lastText: 'Did you get the ice cream?',
-    face: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
+    name: 'Dish Global Kitchen',
+    lastText: 'Overtoom 255, 1054 HW Amsterdam\n020 616 5835',
+    face: 'http://lh4.ggpht.com/_tK2IgltJehQ/SfWi1DtesVI/AAAAAAAAAPg/nUWudguv2wg/s640/IMGP1216.JPG'
   }, {
     id: 3,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg'
-  }, {
+    name: '1900',
+    lastText: 'Hogeweg 48, 1098 CE',
+    face: 'http://michaeldurgaram.com/wp-content/uploads/2013/10/b1.jpg'
+  },  {
     id: 4,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
+    name: 'Kantijl & De Tijger',
+    lastText: 'Spuistraat 291/293, 1012 VS',
+    face: 'http://farm7.static.flickr.com/6054/6282234163_e92d7cc9f0.jpg'
+  },{
+    id: 5,
+    name: 'Het Groot Melkhuis',
+    lastText: 'Vondelpark 2, 1071 AA',
+    face: 'http://www.booza.nl/images/melkhuis.jpg'
   }];
 
   return {
