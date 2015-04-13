@@ -1,6 +1,6 @@
 {
   "name": "kidocity",
-  "app_id": "",
+  "app_id": "684b7955",
   "gulpStartupTasks": [
     "sass",
     "watch"
